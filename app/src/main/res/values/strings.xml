@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DaySeventeen</string>
+    <string name="key">KEY</string>
+    <string name="value">STRING VALUE</string>
+    <string name="write">WRITE</string>
+    <string name="read">READ</string>
+    <string name="result">Result</string>
+    <string name="goto_activity2"><![CDATA[>]]></string>
+    <string name="genre">GENRE</string>
+    <string name="game">GAME</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="goto_activity3"><![CDATA[>]]></string>
+    <string name="permission">Permission</string>
+    <string name="location_updates">Location Updates</string>
+    <string name="timeline">TIMELINE</string>
+</resources>
