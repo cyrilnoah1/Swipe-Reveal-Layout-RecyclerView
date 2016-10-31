@@ -31,7 +31,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.TimeLi
             super(itemView);
             mTextView = (TextView) itemView.findViewById(R.id.textView_for_genre);
 
-
             btnDelete = (Button) itemView.findViewById(R.id.btn_delete);
 
             swipeRevealLayout = (SwipeRevealLayout) itemView.findViewById(R.id.swipe_reveal_view);
