@@ -58,11 +58,11 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.TimeLi
     /**
      * Method to bind the required data to the RecyclerView.
      *
-     * @param holder
-     * @param position
+     * @param holder   .
+     * @param position .
      */
     @Override
-    public void onBindViewHolder(final TimeLineViewHolder holder, final int position) {
+    public void onBindViewHolder(final TimeLineViewHolder holder, int position) {
         RecyclerData recyclerData = gameList.get(position);
 
         holder.mTextView.setText(recyclerData.getTextData());
@@ -70,7 +70,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.TimeLi
         holder.btnDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(mContext, "Position: " + String.valueOf(position + 1),
+                Toast.makeText(mContext, "Position: "
+                        + String.valueOf(holder.getAdapterPosition() + 1),
                         Toast.LENGTH_SHORT).show();
             }
         });
